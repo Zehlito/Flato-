@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFlatooo"
+    android:background="@color/red"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_margin="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:progressDrawable="@drawable/progress_drawable">
+
+        </SeekBar>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="#FFEE58"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/botao2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seek_bar"
+            app:layout_constraintBottom_toTopOf="@id/botao4">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="#FFB300"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/botao3"
+            app:layout_constraintStart_toEndOf="@id/botao1"
+            app:layout_constraintTop_toTopOf="@+id/botao1">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="#F4511E"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/botao2"
+            app:layout_constraintTop_toTopOf="@+id/botao1">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#81D4FA"
+            app:layout_constraintTop_toBottomOf="@id/botao1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/botao5"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toTopOf="@id/botao7">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#29B6F6"
+            app:layout_constraintTop_toTopOf="@id/botao4"
+            app:layout_constraintStart_toEndOf="@id/botao4"
+            app:layout_constraintEnd_toStartOf="@id/botao6">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="#1565C0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/botao5"
+            app:layout_constraintTop_toTopOf="@id/botao4">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#EF9A9A"
+            app:layout_constraintTop_toBottomOf="@id/botao4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/botao8"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toTopOf="@id/botao10">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="#EC407A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/botao9"
+            app:layout_constraintStart_toEndOf="@id/botao7"
+            app:layout_constraintTop_toTopOf="@+id/botao7">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="#8E24AA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/botao8"
+            app:layout_constraintTop_toTopOf="@+id/botao7">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/botao11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/botao7">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#959191"
+            app:layout_constraintTop_toTopOf="@id/botao10"
+            app:layout_constraintStart_toEndOf="@id/botao10"
+            app:layout_constraintEnd_toStartOf="@id/botao12">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/fart"
+            android:text="Press"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            app:layout_constraintTop_toTopOf="@id/botao10"
+            app:layout_constraintStart_toEndOf="@id/botao11"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
